@@ -1,0 +1,49 @@
+*{font-family:微软雅黑;}
+#caseHistory{width:100%; overflow:hidden; /*display:none*/}
+#caseHistory .YaWei{width:118px; height:35px; line-height:35px}
+.case_main{box-sizing:border-box; padding:10px;}
+#caseTable {background-color:#fff;border-collapse:collapse}
+#caseTable tr{background-color:#fff}
+#caseTable tr td{ min-height:32px; height:32px; border:solid 1px #eee}
+#caseTable .hint{width:120px; background-color:#FAFAFA; text-align:center; -webkit-user-select:none; padding-top:5px; font-size: 15px}
+#caseTable .content{background-color:#FDFDFD; position:relative; /*outline:solid 1px #f5f5f5;*/ box-sizing:border-box;padding:3px 5px 3px 5px; transition:all ease-out 0s; outline:none;word-break:break-all;-webkit-user-select:text;-webkit-user-modify: read-write-plaintext-only;}
+#caseTable .conten:focus{border:solid 1px #F00; background-color:#FFF;  }
+#caseTable .content:hover{background-color:#fff;outline:solid 1px #0C3; }
+#caseTable .tool{width:30px;background-color:#FAFAFA; }
+
+.tdYaWei{width:118px; text-align:center; background-image:url(../assets/bi/YW.png); position:relative; font-size:13px; background-position:center; background-repeat:no-repeat; cursor:pointer}
+.tdYaWei div{position:absolute; width:50%; height:50%; font-size:12px;}
+.tdYaWei div input[type='text']{width:100%; height:100%; border:none; background-color:transparent; outline:none; cursor:pointer}
+.tdYaWei .LT,.tdYaWei .LB{width:48%; left:1px; text-align:right;-webkit-user-select:none;}
+.tdYaWei .LT input[type='text'],.tdYaWei .LB input[type='text']{text-align:right}
+.tdYaWei .RT,.tdYaWei .RB{width:47%; right:1px; text-align:left;-webkit-user-select:none;  border:solid 0px #ccc;}
+.tdYaWei .LT,.tdYaWei .RT{bottom:17px;-webkit-user-select:none; }	
+.tdYaWei .LB,.tdYaWei .RB{bottom:2px;-webkit-user-select:none;}	
+
+.tool{ width:34px; border-left:solid 0px #eee; background-image:url(../assets/bi/Add0.png); background-repeat:no-repeat; background-position:2px 6px}	
+.tool:active{background-position:4px 9px; }
+.tool:hover{cursor:pointer}	
+.toolDel{ width:30px; border-left:solid 0px #eee; background-image:url(../assets/bi/delete0.png); background-repeat:no-repeat;  background-position:2px 6px; cursor:pointer; background-color:#FAFAFA}
+.toolDel:active{background-position:4px 9px; }
+.toolDel:hover{cursor:pointer;background-image:url(../assets/bi/delete1.png);}		
+	
+#popMenu{bottom:0px; position:absolute;  right:100px; bottom:200px; height:122px; z-index:10; background-color:#eee; width:80px;box-shadow:2px 2px 5px #999; display:none }
+#popMenu ul{padding:0px; margin:0px; }
+#popMenu ul li{text-align:center; list-style:none; line-height:30px; cursor:pointer; font-size:15px; transition:all ease-out 0.1s; -webkit-user-select:none}
+#popMenu ul li:hover{background-color:#ccc}
+#popMenu ul li:active{background-color:#333; color:#fff}
+#waring{position:absolute; border:solid 2px #F00; width:99.6%; height:100%; top:0px; left:0px; display:none}
+#pic_prompt{ line-height:10px}
+#pic_list{box-sizing:border-box; padding:0px 10px 10px 0px; overflow:hidden; display:table;border-collapse:separate;border-spacing: 5px;}
+#pic_list span{ width:90px; height:90px; margin-right:10px; border:solid 1px #ccc; display:table-cell; vertical-align:middle; padding-left:7px; padding-right:7px; border-collapse:separate;border-spacing:20px}
+#pic_list span img{width:100%; height:auto; max-height:90px;  cursor:pointer}
+#pic_list span img:hover{ opacity:0.8}
+#pic_list span img:active{ margin-top:1px;}
+.no_bg{background-image:none !important; background-color:#fff  !important;border:solid 1px #ccc;} 
+.add_bg{background-image:url(../assets/bi/addbg.png); border:solid 1px #ccc;}
+#pic_list span:last-child{background-color:#fff; background-image:url(../assets/bi/addbg.png); background-position:center center; background-repeat:no-repeat; cursor:pointer;border:solid 1px #ccc}
+#pic_list span:last-child:hover{background-color:#eee}
+#pic_list span:last-child:active{background-color:#ddd}
+#delIco{background-image:url(../assets/bi/del.png); width:15px; height:15px; position:absolute; left:0px; top:-20px; z-index:1; cursor:pointer}
+#delIco:hover{background-image:url(../assets/bi/del_over.png); width:15px; height:15px}
+#delIco:active{ margin-top:1px;} 

@@ -1,0 +1,46 @@
+body,html{ width: 100%; height: 100%;}
+/*首页框架*/
+.fFrame{ width: 100%; height: 100%; display: flex; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; flex-direction: column;}
+.f_header{ height: 50px; background: #2a2d38;}
+.main{ flex: 1; -moz-box-flex: 1; -ms-flex: 1; -webkit-flex: 1; display: flex; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; overflow: auto;}
+.mainLeft{ width: 70px; background: #333744; position: relative; font-size: 14px;}
+.mainLeft > div{ width: 70px; height: 70px; float: left; cursor: pointer; position: relative;}
+.mainLeft > div:last-child{ position: fixed; bottom: 0;}
+.mainLeft a{ width: 70px; height: 70px; display: block; color: #aeb9c2; text-align: center; padding-top: 40px; box-sizing: border-box;}
+.mainLeft a:hover{ color: #fff;}
+.mainLeft a.mlAct{ color: #fff;}
+.mainRight{ flex: 1; -moz-box-flex: 1; -ms-flex: 1; -webkit-flex: 1; display: flex; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; background: #fff; overflow: auto;position: relative;}
+.mainLeft{ width: 70px; background: #333744; position: relative; font-size: 14px;}
+.mainLeft > div{ width: 70px; height: 70px; float: left; cursor: pointer; position: relative;}
+.mainLeft > div:last-child{ position: fixed; bottom: 0;}
+.mainLeft a{ width: 70px; height: 70px; display: block; color: #aeb9c2; text-align: center; padding-top: 40px; box-sizing: border-box; text-decoration: none;}
+.mainLeft a:hover{ color: #fff;}
+.mainLeft a.mlAct{ color: #fff;}
+.mlItem1 a{ background: url(../assets/home/home.png) center 10px no-repeat;}
+.mlItem1 a:hover{ background: url(../assets/home/home_act.png) #42485b center 10px no-repeat;}
+.mlItem1 a.mlAct{ background: url(../assets/home/home_act.png) #47a6a0 center 10px no-repeat;}
+.mlItem2 a{ background: url(../assets/home/user.png) center 10px no-repeat;}
+.mlItem2 a:hover{ background: url(../assets/home/user_act.png) #42485b center 10px no-repeat;}
+.mlItem2 a.mlAct{ background: url(../assets/home/user_act.png) #47a6a0 center 10px no-repeat;}
+.mlItem3 a{ background: url(../assets/home/appoint.png) center 10px no-repeat;}
+.mlItem3 a:hover{ background: url(../assets/home/appoint_act.png) #42485b center 10px no-repeat;}
+.mlItem3 a.mlAct{ background: url(../assets/home/appoint_act.png) #47a6a0 center 10px no-repeat;}
+.mlItem4 a{ background: url(../assets/home/more.png) center 10px no-repeat;}
+.mlItem4 a:hover{ background: url(../assets/home/more_act.png) #42485b center 10px no-repeat;}
+.mlItem4 a.mlAct{ background: url(../assets/home/more_act.png) #47a6a0 center 10px no-repeat;}
+.router-link-active{ background-color: #47a6a0 !important}
+.h_a_active{background-color: #47a6a0 !important}
+
+/*通用框架*/
+.pub_outer{position: absolute;margin-bottom: 0px;left: 0px;top: 0px;right: 0px;width: auto !important;min-width: 500px;background-color: #fff;padding-left: 0px !important;height: 100%;}
+.pub_frme_two{width: 100%; height: 100%;}
+.pub_frmeLeft{width: 199px; height: 100%; float: left; background-color: #FFF; display: flex;flex-flow: column; border-right: solid 1px #eee;box-sizing:border-box; }
+.pub_frmeRight{position: relative; height: 100%; background-color: #fff; float: left; width:calc( 100% - 200px);}
+
+/*通用框架左导航*/
+.un_fold{}
+.un_fold ul,.un_fold li{margin: 0px; padding:0px; list-style: none;}
+.un_fold li{ display: inline-block;width:100%;height:46px;}
+.un_fold li a{width: 100%; height:100%; display: inline-block; line-height: 46px; box-sizing:border-box; padding-left: 10px; text-decoration: none; color:#696969;}
+.un_fold li a:hover{background-color: #fafafa}
+.un_fold li .h_a_active{background-color: #eee !important}

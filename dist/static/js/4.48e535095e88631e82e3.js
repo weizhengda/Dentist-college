@@ -1,2 +1,0 @@
-webpackJsonp([4],{"0US+":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var a={render:function(){var t=this.$createElement;return(this._self._c||t)("div",{staticClass:"login_cs"})},staticRenderFns:[]};var s=n("VU/8")({name:"logout",data:function(){return{}},created:function(){this.$store.dispatch("setLoginState",{}),this.$router.push({path:"/"})}},a,!1,function(t){n("O5NN")},"data-v-9a08c4b4",null);e.default=s.exports},O5NN:function(t,e){}});
-//# sourceMappingURL=4.48e535095e88631e82e3.js.map
